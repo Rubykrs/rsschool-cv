@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: rgb(224, 224, 224);
+  display: flex;
+}
+.container_left {
+  width: 35%;
+  background-color: rgb(56, 55, 55);
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.container_right {
+  padding: 0 40px;
+  width: 65%;
+}
+
+.section {
+  margin: 60px auto ;
+}
+
+.img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background-image: url('./img/me.jpeg');
+  background-size: cover;
+}
+
+.section__description {
+  padding-top: 20px;
+}
+
+.section__exp {
+  display: flex;
+  gap: 50px;
+  padding-top: 20px;
+}
+.section__exp_years {
+  min-width: 70px;
+}
+ul {
+  padding: 0;
+}
+b {
+  font-size: 18px;
+}
+li {
+  list-style-type: none;
+  padding: 8px 0;
+}
+.body1 {
+  padding: 40px 0 25px 30px;
+  font-weight: bold;
+}
+.title {
+  font-size: 22px;
+}
+
+.title::after {
+  display: block;
+  width: 60px;
+  content: '';
+  position: relative;
+  border-bottom: 3px solid rgb(61, 115, 196);
+  top: 9px;
+}
+
+.name {
+  font-size: 45px;
+}
+
+.padding__bottom {
+  padding-bottom: 40px;
+}
